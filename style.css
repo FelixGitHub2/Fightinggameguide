@@ -1,0 +1,46 @@
+body{
+    background-color:  rgb(195, 40, 40);
+}
+h1{
+    text-align: center;
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 20% 1fr ;
+    gap: 220px;
+}
+img{
+    text-decoration: none;
+    margin: auto;
+    background-color: white;
+    border: 8px solid black
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.second-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 75px;
+}
+h3{
+    text-align: center;
+    background-color: white;
+    border: 5px solid black
+    
+}
+h4{
+    font-size: x-large; 
+    background-color: white;
+    border: 5px solid black;
+}
+.header-grid{
+    display: grid;
+    grid-auto-flow: column;
+}
+footer{
+    font-size: x-large; 
+}

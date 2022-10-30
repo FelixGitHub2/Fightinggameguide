@@ -1,0 +1,79 @@
+body {
+    background-size: cover;
+    background-image: url('istockphoto-507616998-640x640.jpg');
+}
+
+h1 {
+    text-align: center;
+}
+
+.third-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 300px;
+}
+
+h2 {
+    border: 10px solid rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(197, 47, 47);
+    text-decoration-line: none;
+}
+
+.fourth-grid{
+    display: grid;
+    grid-template-columns: 20% 20% 1fr 1fr;
+    gap: 50px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.gameplayimg{
+    border: 5px solid black;
+    transition: transform 2s;
+}
+.gameplayimg:hover{
+    transform: scale(1.5);
+}
+.gameplayimg2{
+    border: 5px solid black;
+    transition: transform 2s;
+    margin-left: 49%;
+    margin-top: 30%;
+}
+.gameplayimg2:hover{
+    transform: scale(1.5);
+}
+
+
+.TextD{
+    border: 5px solid black;
+}
+
+h5{
+    color: black;
+    font-size: x-large;
+    background-color: rgb(197, 47, 47);
+    border: 5px solid black;
+}
+
+h3{
+    color: black;
+    font-size: x-large;
+    background-color: rgb(197, 47, 47);
+}
+
+.header-grid{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+h6{
+    color: black;
+    font-size: x-large;
+    background-color: rgb(197, 47, 47);
+    border: 5px solid black;
+}
